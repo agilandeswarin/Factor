@@ -1,0 +1,36 @@
+public class Factors {
+public static void main(String[] args) {
+	int n=-100;
+	for(int i=n;i<Math.abs(n);i++) {
+		if(i==0) {
+			continue;
+		}
+		else
+		{
+			if(n%i==0) {
+				System.out.println(i);
+			}
+		}
+	}
+		
+}
+}
+
+OUTPUT
+-100
+-50
+-25
+-20
+-10
+-5
+-4
+-2
+-1
+1
+2
+4
+5
+10
+20
+25
+50
